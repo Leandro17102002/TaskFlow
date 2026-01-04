@@ -1,0 +1,87 @@
+/* 
+Primary: #4f46e5 (indigo)
+
+Secondary: #22c55e
+
+Dark: #0f172a
+
+Light: #f8fafc
+*/
+/* Colors */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8fafc;
+}
+
+input[type=text] {
+  width: 90%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.container-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 10%;
+}
+
+ul {
+  list-style: none;
+  background-color: #f8fafc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+li {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+header {
+  background-color: #4f46e5;
+  color: #f8fafc;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  background-color: #22c55e;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+header h1 {
+  font-size: 28px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */

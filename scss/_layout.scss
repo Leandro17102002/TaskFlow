@@ -1,0 +1,33 @@
+@use '_variables' as v;
+
+header {
+    background-color: v.$color_primary;
+    color: v.$color_light;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+        
+.logo {
+    width: 40px;
+    height: 40px;
+    background-color: v.$color_secondary;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+        
+header h1 {
+    font-size: 28px;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+}
