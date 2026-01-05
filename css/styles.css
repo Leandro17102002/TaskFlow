@@ -27,7 +27,7 @@ input[type=text] {
   border-radius: 4px;
 }
 
-.container-input {
+.task-form {
   display: flex;
   gap: 10px;
   margin-bottom: 20px;
@@ -47,10 +47,21 @@ ul {
 li {
   padding: 15px;
   border-bottom: 1px solid #eee;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+li:hover {
+  opacity: 0.8;
 }
 
 li:last-child {
   border-bottom: none;
+}
+
+.task-completed {
+  text-decoration: line-through;
+  opacity: 0.6;
 }
 
 header {
